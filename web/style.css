@@ -1,0 +1,608 @@
+body, html {
+  height: 140%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.entetebox {
+  width: 100%;
+  height: 80px;
+  background: #e9eaec;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-image {
+  position: absolute;
+  width: 14.5%;
+  height: auto;
+  top: -55px;
+}
+
+.menu-button {
+  position: absolute;
+  width: 32px;
+  align-self: center;
+  left: 50px;
+}
+
+.search-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  left: 610px;
+}
+
+body {
+  background-color: #121421;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  min-height: 120vh;
+  margin: 0;
+  padding: 0;
+}
+
+.banner-container {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+}
+
+.banner-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url('background1.jpg');
+  object-fit: cover;
+  object-position: 0% 15%;
+  box-shadow: inset 0px 60px 30px 30px rgba(18, 20, 33, 0.8);
+  filter: blur(2.2px);
+}
+
+.head-text {
+  position: absolute;
+  font-family: "Bebas Neue", sans-serif;
+  top: 60%;
+  left: 5%;
+  width: 350px;
+  font-size: 36px;
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+.gradian1 {
+  position: absolute;
+  width: 89%;
+  height: 0.2%;
+  left: 5%;
+  bottom: 13%;
+  background: rgba(65, 68, 90, 0.575);
+  text-align: center;
+}
+
+.rounded-image-box {
+  position: relative;
+  background-color: #e9eaec;
+  display: flex;
+  width: 250px;
+  height: 130px;
+  left: 5%;
+  top: 65px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.rounded-image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.new1-text {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 95%;
+  width: 26%;
+  margin-top: -6%;
+  left: 25%;
+}
+
+.rounded-image-box2 {
+  position: relative;
+  background-color: #e9eaec;
+  display: flex;
+  width: 250px;
+  height: 130px;
+  left: 720px;
+  top: -66px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.rounded-image-box2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.new2-text {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 95%;
+  width: 23%;
+  left: 73.5%;
+  margin-top: -15.55%;
+}
+
+.gradian2 {
+  position: absolute;
+  width: 89%;
+  height: 0.2%;
+  left: 5%;
+  margin-top: -15px;
+  background: rgba(65, 68, 90, 0.575);
+  text-align: center;
+}
+
+.rounded-image-mapbox {
+  position: relative;
+  background-color: #ffffff;
+  display: flex;
+  width: 37%;
+  height: 250px;
+  left: 5%;
+  margin-top: 4%;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.rounded-image-mapbox iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.sdescription-text {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 110%;
+  font-weight: lighter;  
+  margin-top: -19.5%;
+  left: 45%;
+  width: 45%;
+}
+
+.sdescription-text span {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+.gradian3 {
+  position: absolute;
+  background-color: rgba(65, 68, 90, 0.575);
+  width: 89%;
+  height: 0.2%;
+  left: 5%;
+  margin-top: 5%;
+  
+}
+
+.clubs {
+  margin-bottom: -27%;
+  width: 100%;
+  height: 50%;
+}
+
+.clubs-text {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+  margin-top: 9%;
+  left: 44.5%;
+}
+
+.rob-name {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  margin-top: 33.3%;
+  left: 17.2%;
+}
+
+.tech-name {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  margin-top: 33.3%;
+  margin-left: 36.5%;
+}
+
+.prog-name {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  margin-top: 33.3%;
+  margin-left: 53.9%;
+}
+
+.cont-name {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  margin-top: 33.3%;
+  left: 74.5%;
+}
+
+.card1 {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  width: 10.4%;
+  height: 37.5%;
+  left: 15.7%;
+  margin-top: 14.9%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card2 {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  width: 10.4%;
+  height: 37.5%;
+  left: 35%;
+  margin-top: 14.9%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card3 {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  width: 10.4%;
+  height: 37.5%;
+  left: 54%;
+  margin-top: 14.9%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card4 {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  width: 10.4%;
+  height: 37.5%;
+  left: 73%;
+  margin-top: 14.9%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gradian4 {
+  position: absolute;
+  background-color: rgba(65, 68, 90, 0.575);
+  width: 89%;
+  height: 0.2%;
+  left: 5%;
+  margin-top: 66%;
+}
+
+.citation-zone {
+  position: relative;
+  width: 100%;
+  height: 9%;
+  margin-top: 70%;
+}
+
+.t-r-l-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 110%;
+  font-weight: bold;
+  margin-top: 24.5%;
+  margin-left: 8%;
+}
+
+.t-r-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90%;
+  width: 20%;
+  text-align: center;
+  margin-left: 3.5%;
+}
+
+.f-t-l-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 110%;
+  font-weight: bold;
+  margin-top: -6.8%;
+  margin-left: 40%;
+}
+
+.f-t-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90%;
+  width: 20%;
+  text-align: center;
+  margin-left: 36.5%;
+}
+
+.i-p-l-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 110%;
+  font-weight: bold;
+  margin-top: -7.7%;
+  margin-left: 73%;
+}
+
+.i-p-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90%;
+  width: 20%;
+  text-align: center;
+  margin-left: 71.2%;
+}
+
+.copyright-text {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #121421;
+  margin-top: 52%;
+  margin-left: 1%;
+}
+
+.footer-zone {
+  position: absolute;
+  background-color: #e9eaec;
+  width: 100%;
+  height: 10%;
+  margin-top: 0%;
+}
+
+.legal-inst {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 85%;
+  color: #121421;
+  margin-top: 2.7%;
+  left: 1%;
+
+}
+
+/* Media Queries pour la Responsive */
+@media (max-width: 400px) {
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  .entetebox {
+    width: 100%;
+    height: 50px;
+  }
+
+  .logo-image {
+    width: 25%;
+    top: -2.5%;
+  }
+
+  .search-icon {
+    width: 4%;
+    height: auto;
+    left: 40%;
+  }
+
+  .menu-button {
+    width: 7%;
+    height: auto;
+    left: 6.5%;
+  }  
+
+
+  .banner-container {
+    height: 30vh;
+  }
+
+  .head-text {
+    font-size: 150%;
+    width: 60%;
+  }
+
+  .gradian1 {
+    top: 38%;
+  }
+
+  .rounded-image-box {
+    width: 180px;
+    height: 90px;    
+  }
+
+  .new1-text {
+    font-size: 50%;
+    width: 40%;
+    top: 43%;
+    left: 55%;
+  }
+
+  .rounded-image-box2 {
+    width: 180px;
+    height: 90px;
+    left: 5%;
+    margin-top: 45%;
+  }
+
+  .new2-text {
+    font-size: 50%;
+    width: 40%;
+    top: 60.8%;
+    left: 55%;
+
+  }
+  .gradian2 {
+    margin-top: -6%;
+  }
+  .rounded-image-mapbox{
+    width: 180px;
+    height: 115px;
+  }
+
+  .sdescription-text {
+    font-size: 50%;
+    width: 40%;
+    top: 79.3%;
+    left:55%;
+  }
+
+  .gradian3 {
+    top: 90%;
+  }
+
+  .clubs-text {
+    top: 92%;
+    left: 25%;
+  }
+
+  .gradian4 {
+    top: 150%;
+  }
+  .card1 {
+    top: 96%;
+    left: 6.5%;
+    width: 70px;
+    height: 150px;
+  }
+
+  .card2 {
+    top: 96%;
+    left: 29.5%;
+    width: 70px;
+    height: 150px;
+  }
+
+  .card3 {
+    top: 96%;
+    left: 52.5%;
+    width: 70px;
+    height: 150px;
+  }
+
+  .card4 {
+    top: 96%;
+    left: 75.5%;
+    width: 70px;
+    height: 150px;
+  }
+
+  .rob-name {
+    font-size: 85%;
+    left: 5%;
+    top: 105.5%;
+  }
+
+  .tech-name {
+    font-size: 85%;
+    left: -8.1%;
+    top: 105.5%;
+  }
+
+  .prog-name {
+    font-size: 80%;
+    left: -5%;
+    top: 105.5%;
+  }
+
+  .cont-name {
+    font-size: 80%;
+    left: 76%;
+    top: 105.5%;
+  }
+
+  .gradian4 {
+    top: 97%;
+  }
+
+  
+  .citation-zone {
+    margin-top: 130%;
+    width: 100%;
+    height: 35%;
+  }
+  .t-r-l-text {
+    margin-left: 30%;
+    font-size: 90%;
+  }
+  .t-r-text {
+    font-size: 75%;
+    margin-left: 16%;
+    width: 60%;
+  }
+
+  .f-t-l-text {
+    margin-top: 10%;
+    margin-left: 28%;
+    font-size: 90%;
+  }
+
+  .f-t-text {
+    font-size: 75%;
+    width: 70%;
+    margin-left: 10%;
+  }
+
+  .i-p-l-text {
+    margin-top: 10%;
+    margin-left: 23%;
+    font-size: 90%;
+  }
+
+  .i-p-text {
+    font-size: 75%;
+    width: 70%;
+    margin-left: 11%;
+  }
+
+  .footer-zone {
+    background-color: #e9eaec;
+    margin-top: 5%;
+    height: 70px;
+  }
+}
+  
